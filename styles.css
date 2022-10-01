@@ -1,4 +1,109 @@
+html , body{
+    margin: 0px;
+    height: 100%;
+}
+body{
+    background-color: #f6f6e9;
+}
+header p{
+    padding-left: 20px;
+}
+#fst{
+    color: #7b3911;
+}
 h1{
-    
-    color:#8EAD2A;
+    color: #7b3911;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+}
+.top{
+    display: grid;
+    height: 100%;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 80px;
+}
+#home , #about , #product ,  #contact{
+    margin-right: 40px;
+    color: #7b3911;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.top_main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.title_description_button{
+    margin-top: 10px;
+    margin-right: 35px;
+}
+.title{
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: -10px;
+}
+.description{
+    font-size: 2.0vh;
+    padding-left: 20px;
+    padding-top: -18px;
+    color: #7b3911;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
+}
+.top_button_product_img{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.button{
+    display: block;
+}
+.button div{
+    width: 12%;
+    height: 40px;
+    margin-top: 20px;
+}
+.button .first{
+    background-color: #844a22;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px;
+    left: 10px;
+    cursor: pointer;
+}
+.button .secound {
+    background-color: #dc661f;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+    z-index: 1;
+}
+.button .first p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.product_img{
+    text-align: end;
+    margin-right: -350px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+img{
+    max-width: 100%;
+    width: 35%;
+    height: auto;
+}
+.top_end{
+    display: flex;
+    flex-direction: row;
+    background-color: #7b3911;
+    height: 24vh;
+    color: white;
+}
+.first1 , .secound1 , .third1{
+  margin: 0px 15px 5px 55px;
+  padding: 10px 5px 5px 10px;
+  font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
 }
