@@ -5,6 +5,191 @@ html , body{
 body{
     background-color: #f6f6e9;
 }
+.top{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "decription"
+    "footer";
+}
+header{
+    grid-area: "header";
+    font-size: 1.2em;
+    padding-left: 3.7em;
+}
+#fst{
+    color: #7b3911;
+}
+h1{
+    color: #7b3911;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+}
+#navbar{
+    grid-area: navbar;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -5px;
+}
+#home , #about , #product , #contact{
+    margin-right: 4.5em;
+    color: #7b3911;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.top_main{
+    display: grid;
+    grid-template-columns: repeat(2, 1.5fr);
+    grid-column-gap: 40%;
+}
+.title_description_button{
+    padding-left: 3.0em;
+    padding-top: 2.1em;
+}
+.title{
+    font-size: 25px;
+    padding-left: 20px;
+    color: #7b3911;
+}
+.description{
+    font-size: 2.0vh;
+    padding-left: 20px;
+    color: #7b3911;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
+}
+.button{
+    display: block;
+}
+.button div{
+    width: 10%;
+    height: 40px;
+    margin-top: 20px;
+    font-family:"Open Sans" ,Georgia, 'Times New Roman', Times, serif;
+}
+.button .first{
+    background-color: #844a22;
+    position: absolute;
+    z-index: 2;
+    margin-left: 60px;
+    left: 10px;
+    cursor: pointer;
+    box-shadow: 7px 10px #dc661f;
+}
+.button .first p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.product_img{
+    margin-bottom: 10px;
+}
+img{
+     display: block;
+     max-width: 100%;
+     width: 55%;
+     height: auto;
+     padding-top: 10px;
+ }
+ .top_end{
+   display: flex;
+   flex-direction: row;
+    background-color: #7b3911;
+    width: 100%;
+    height: 25.5vh;
+    color: white;
+    margin-top: 5%;
+    grid-area: footer;
+}
+.first1 , .secound1 , .third1{
+  margin: 0px 15px 5px 55px;
+  padding: 10px 5px 5px 10px;
+  font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+}
+.mid{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "decription"
+    "footer";
+    background-color: #3b5704;
+}
+.mid_header{
+    grid-area: header;
+}
+#heading{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 19.7px;
+    color:#edffcc;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
+}
+#sub_heading{
+    text-align: center;
+    font-size: 45px;
+    color: #81b622;
+    font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+}
+.mid_main{
+    display: grid;
+    grid-template-columns: repeat(3, 2.5fr);
+    grid-area:decription;
+}
+.des_one , .des_two {
+    margin-left: 10.5em;
+}
+#description_img_only{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    margin-left: 18px;
+}
+#des_main_one{
+    font-size: 22.5px;
+    color: #edffcc;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif ;
+}
+#des_one{
+    font-size: 13.9px;
+    color: #edffcc;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif ;
+
+}
+#des_main_two{
+    font-size: 22.5px;
+    color: #edffcc;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif ;
+}
+#des_two{
+    font-size: 13.9px;
+    color: #edffcc;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif ;
+}
+#des_main_three{
+    font-size: 22.5px;
+    color: #edffcc;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif ;
+}
+#des_three{
+    font-size: 13.9px;
+    color: #edffcc;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif ; 
+}
+#des_main_four , #des_main_five, #des_main_six{
+    font-size: 22.5px;
+    color: #edffcc;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif ;
+}
+#des_four, #des_five, #des_six{
+    font-size: 13.9px;
+    color: #edffcc;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif ; 
+}
+
 /*
 header p{
     padding-left: 20px;
