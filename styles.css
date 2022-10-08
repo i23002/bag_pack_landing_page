@@ -189,7 +189,128 @@ img{
     color: #edffcc;
     font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif ; 
 }
+.product{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "decription"
+    "footer";
+    background-color: white;
+}
+.product_bars{
+    display: grid;
+    grid-template-columns: repeat(2, 14.5fr);
+    
+}
 
+.product_heading p{
+    display: block;
+    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 19.7px;
+    padding-left: 8.1em;
+}
+#p2{
+    font-size: 35px;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10.0rem;
+    margin-top: -10px;
+    grid-area: header;
+}
+.product_button{
+    display: block;
+    margin-left: 75%;
+    margin-top: 2%;
+    font-family:"Open Sans" ,Georgia, 'Times New Roman', Times, serif;
+    font-size: 21.2px;
+    background-color: #f2a154;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 9px 17px #292929;
+    height: 8%;
+    width: 13%;
+}
+.bttn{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: -1px;
+    color: white;
+}
+.all_products{
+    display: grid;
+    grid-template-columns:repeat(3, 2.5fr);
+    padding-left: 10%;
+    padding-top: 9%;
+}
+#first_product_description{
+    background-color: #e7e6e1;
+    margin-right: 38%;
+    margin-top: -4%;
+    padding-bottom: 55%;
+    margin-left: -3%;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+#first_product_img{
+    display: block;
+    width: 40%;
+    height: 30%;
+    margin-left: 10%;
+    margin-bottom: -28%;
+}
+#p3 , #p4{
+    margin-top: 70%;
+    margin-bottom: -100%;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-left: -20%;
+}
+#secound_product_img{
+    display: block;
+    width: 40%;
+    height: 30%;
+    margin-left: 10%;
+    margin-bottom: -28%;
+}
+#secound_product_description{
+    background-color: #314e52;
+    margin-right: 38%;
+    margin-top: -4%;
+    padding-bottom: 57%;
+    margin-left: -3%;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+#p5 , #p6{
+    margin-top: 70%;
+    margin-bottom: -100%;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-left: -20%;
+}
+#third_product_img{
+    display: block;
+    width: 40%;
+    height: 30%;
+    margin-left: 10%;
+    margin-bottom: -28%;
+}
+#third_product_description{
+    background-color: #e7e6e1;
+    margin-right: 38%;
+    margin-top: 10%;
+    padding-bottom: 55.5%;
+    margin-left: -3%;
+    padding-left: 25%;
+    padding-top: 10%;
+}
+#p7 , #p8{
+    margin-top: 70%;
+    margin-bottom: -100%;
+    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-left: -20%;
+}
 /*
 header p{
     padding-left: 20px;
