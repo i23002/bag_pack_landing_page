@@ -246,7 +246,7 @@ img{
     background-color: #e7e6e1;
     margin-right: 38%;
     margin-top: -4%;
-    padding-bottom: 55%;
+    padding-bottom: 50%;
     margin-left: -3%;
     padding-left: 25%;
     padding-top: 10%;
@@ -276,7 +276,7 @@ img{
     background-color: #314e52;
     margin-right: 38%;
     margin-top: -4%;
-    padding-bottom: 57%;
+    padding-bottom: 52%;
     margin-left: -3%;
     padding-left: 25%;
     padding-top: 10%;
@@ -287,6 +287,7 @@ img{
     font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     margin-left: -20%;
+    color: white;
 }
 #third_product_img{
     display: block;
@@ -299,7 +300,7 @@ img{
     background-color: #e7e6e1;
     margin-right: 38%;
     margin-top: 10%;
-    padding-bottom: 55.5%;
+    padding-bottom: 50.5%;
     margin-left: -3%;
     padding-left: 25%;
     padding-top: 10%;
@@ -311,115 +312,143 @@ img{
     font-size: 24px;
     margin-left: -20%;
 }
-/*
-header p{
-    padding-left: 20px;
-}
-#fst{
-    color: #7b3911;
-}
-h1{
-    color: #7b3911;
-    font-family:"Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
-}
-.top{
-    display: grid;
+.contact{
     height: 100%;
-}
-#navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-right: 100px;
-}
-#home , #about , #product ,  #contact{
-    margin-right: 40px;
-    color: #7b3911;
-    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
-    cursor: pointer;
-}
-.top_main{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 40%;
-    margin-bottom: 3.1%;
-}
-.title_description_button{
-    margin-top: 10px;
-    margin-right: 35px;
-}
-.title{
-    font-size: 25px;
-    padding-left: 20px;
-    margin-bottom: -10px;
-}
-.description{
-    font-size: 2.0vh;
-    padding-left: 20px;
-    padding-top: -18px;
-    color: #7b3911;
-    font-family:"Nunito Sans" , Georgia, 'Times New Roman', Times, serif;
-}
-.top_button_product_img{
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.button{
-    display: block;
-}
-.button div{
-    width: 10%;
-    height: 40px;
-    margin-top: 20px;
-    font-family:"Open Sans" ,Georgia, 'Times New Roman', Times, serif;
-}
-.button .first{
-    background-color: #844a22;
-    position: absolute;
-    z-index: 2;
-    margin-left: 20px;
-    left: 10px;
-    cursor: pointer;
-    box-shadow: 7px 10px #dc661f;
-}
-.button .secound {
-    background-color: #dc661f;
-    position: absolute;
-    left: 40px;
-    top: 310px;
-    
-}
-.button .first p{
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-.product_img{
-   margin-bottom: 10px;
-}
-img{
-    display: block;
-    max-width: 100%;
-    width: 55%;
-    height: auto;
-    padding-top: 10px;
-    
-  
-}
-.top_end{
-    display: flex;
-    flex-direction: row;
-    background-color: #7b3911;
     width: 100%;
-    height: auto;
-    color: white;
-    margin-bottom: 2%;
-    margin-top: 5%;
+    background-color:white;
+    border: 1px solid white;
 }
-.first1 , .secound1 , .third1{
-  margin: 0px 15px 5px 55px;
-  padding: 10px 5px 5px 10px;
-  font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
-}*/
+.outer{
+    margin-top: 1%;
+    display: block;
+    height: 50vh;
+    width: 100%;
+    background-color: #314e52;
+}
+.contact_handing h2{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 45px;
+    color: white;
+    font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+}
+.button3{
+    text-align: center;
+    margin-top: 3%;
+}
+#button3a{
+    display: block;
+    margin-left: 40%;
+    margin-top: 1%;
+    font-family:"Open Sans" ,Georgia, 'Times New Roman', Times, serif;
+    font-size: 18.2px;
+    background-color: #f2a154;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 9px 17px #292929;
+    height: 8%;
+    width: 13%;
+}
+#button3a p{
+    padding-right: 40%;
+}
+.outer2{
+    height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(4, 2.5fr);
+}
+.outer2_a{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#outer2_a_sub_heading_1{
+    margin-bottom: 10%;
+    font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 20.1px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+#outer2_a_sub_description_1{
+    font-size: 15.7px;
+    padding-left: 2%;
+    font-family: "Raleway" , Georgia, 'Times New Roman', Times, serif;
+}
+.outer2_b{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: black;
+}
+#outer2_b_sub_heading_2{
+    margin-bottom: 10%;
+    font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 20.1px;
+    padding-left: 2%;
+    font-weight:bold ;
+}
+.outer2_b table {
+    padding-left: 1%;
+    font-family:"Raleway" , Georgia, 'Times New Roman', Times, serif ;
+}
+#span{
+    padding-left: 6px;
+}
+td{
+   padding: 5px 0px 5px 0px;
+}
+.outer2_c{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: black;
+}
+#outer2_c_sub_heading_3{
+    margin-bottom: 6%;
+    font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 20.1px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+#secd_table{
+    padding-left: 3%;
+    font-family: "Raleway" , Georgia, 'Times New Roman', Times, serif;
+}
+.outer2_d{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: black;
+}
+#outer2_d_sub_heading_4{
+    margin-bottom: 6%;
+    font-family: "Crimpson Pro" , Georgia, 'Times New Roman', Times, serif;
+    font-size: 20.1px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+.outer_2_d_description{
+    font-size: 15.7px;
+    padding-left: 2%;
+    font-family: "Raleway" , Georgia, 'Times New Roman', Times, serif;
+}
+#third_table{
+    margin-top: 2%;
+    padding-left: 2%;
+}
+[type= "email"]{
+    display: block;
+    height: 30px;
+    width: 90%;
+    margin-right: 2px;
+    padding-left: 10px;
+}
+button{
+    width: 105%;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 3px;
+    background-color: #f2a154;
+    color: white;
+    cursor: pointer;
+}
 
